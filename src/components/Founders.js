@@ -1,14 +1,11 @@
 import React from 'react'
 import {
-    Button,
     Stack,
     Box,
     styled,
     Typography,
 } from '@mui/material'
 import Title from './Title'
-import Paragraph from './Paragraph'
-import { Link } from 'react-router-dom'
 
 import Kemo from '../assets/Kemo.jpg';
 import Ariel from '../assets/Ariel.jpg';
@@ -64,7 +61,7 @@ const Founders = () => {
                         class='social-icon-link github'
                         href="https://www.linkedin.com/in/kemo-sonko/"
                         target='_blank'
-                        rel="noopener"
+                        rel="noopener noreferrer"
                         style={{ textDecoration: 'none' }}
                     >
 
@@ -91,7 +88,7 @@ const Founders = () => {
                         class='social-icon-link github'
                         href="https://www.linkedin.com/in/arieltyson/"
                         target='_blank'
-                        rel="noopener"
+                        rel="noopener noreferrer"
                         style={{ textDecoration: 'none' }}
                     >
 

@@ -1,9 +1,8 @@
 import React from 'react';
-import { Typography, useTheme, useMediaQuery } from '@mui/material';
+import { Typography } from '@mui/material';
 import ChatBotComponent from '../components/ChatBotComponent';
 
 const ChatBot = () => {
-  const theme = useTheme();
 
   return (
     <div
