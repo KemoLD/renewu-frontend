@@ -62,7 +62,7 @@ const Header = () => {
                     color: '#fff',
                 }}
                 >
-                    Your journey to becoming the best version of yourself, one lesson at a time.
+                    Empower Your Journey to Self-Improvement and Personal Growth with RenewU's Guiding Chatbot: Discover, Learn, and Transform Together
                 </Typography>
 
                 <Box>
