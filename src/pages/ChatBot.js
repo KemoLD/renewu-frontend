@@ -26,7 +26,6 @@ const ChatBot = () => {
           color: '#333',
           textShadow: '1px 1px #ccc',
           textAlign: 'center',
-          textTransform: 'uppercase',
           letterSpacing: '2px',
           marginBottom: '20px',
         }}
