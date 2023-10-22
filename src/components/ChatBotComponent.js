@@ -1,11 +1,13 @@
-import React, { useMemo } from 'react';
-import ReactWebChat, { createDirectLine } from 'botframework-webchat';
-import ChatBot from '../pages/ChatBot';
+import React from 'react';
 
 const ChatBotComponent = () => {
-  const directLine = useMemo(() => createDirectLine({ token: 'YOUR_DIRECT_LINE_TOKEN' }), []);
-
-  return <ReactWebChat directLine={directLine} userID="YOUR_USER_ID" />;
+  console.log(process.env.REACT_APP_CHATBOT_SECRET_KEY);
+  return (
+    <iframe
+      src={`https://webchat.botframework.com/embed/comebacklang-bot?s=${process.env.REACT_APP_CHATBOT_SECRET_KEY}`}
+      style={{ minWidth: '400px', width: '100%', minHeight: '500px', border: 'none' }}
+    ></iframe>
+  );
 };
 
 export default ChatBotComponent;

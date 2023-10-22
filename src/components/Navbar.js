@@ -37,11 +37,11 @@ const itemList = [
     },
     {
       text: "About",
-      to: "/about"
+      to: "/About"
     },
     {
         text: "Contact",
-        to: "/contact"
+        to: "/Contact"
     }
 ];
 
@@ -63,7 +63,7 @@ const Navbar = () => {
                 component="h2"
 
                 >
-                    HBSales
+                    RenewU
                 </Typography>
                 <Box sx={{display: { xs: 'block', sm: 'none' } }}>
                     <DrawerItem /> 

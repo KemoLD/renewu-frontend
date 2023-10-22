@@ -7,8 +7,9 @@ import {
 } from '@mui/material'
 import Title from './Title'
 // img
-import imgDetail from '../assets/nextlevel.jpg';
-import imgDetail2 from '../assets/confidence.jpg';
+import imgDetail from '../assets/leadership-cuate.png';
+import imgDetail2 from '../assets/Learning-cuate.png';
+import imgDetail3 from '../assets/Messaging fun-cuate.png';
 
 
 const Features = () => {
@@ -47,14 +48,12 @@ const Features = () => {
                 >
                     <Title
                     text={
-                        'We make it easy for tenants and landlords'
+                        'Personalized Guidance'
                     }
                     textAlign={'start'}
                     />
                     <CustomTypography>
-                        Listing are updated continuously so you<br />
-                        won't miss out on homes that just hit<br />
-                        market until you find your perfect home.
+                        RenewU offers tailored self-improvement guidance that suits your unique journey. Our chatbot's personalized recommendations and insights help you make real progress, keeping you engaged and motivated.
                     </CustomTypography> 
                 </Box>
 
@@ -92,17 +91,53 @@ const Features = () => {
                 >
                     <Title
                     text={
-                        'Match with the best agent'
+                        'Continuous Learning Made Easy'
                         
                     }
                     textAlign={'start'}
                     />
                     <CustomTypography>
-                        Our verified partner Agents are local experts who<br /> 
-                        earn an average of 4.8/5 stars from buyers and sellers.
+                    With RenewU, self-improvement becomes a daily habit. Our chatbot is available 24/7, providing you with a constant source of wisdom from the world's best books, making learning and growth a seamless part of your life.
                     </CustomTypography>
                 </Box>
             </CustomGridItem>
+
+            <CustomGridItem item xs={12} sm={8} md={6} 
+            component = 'section'
+            sx={{
+                order: {xs: 5, sm: 5, md: 5}
+            }}
+            >
+                <Box component='article'
+                sx={{
+                    px: 4,
+                }}
+                >
+                    <Title
+                    text={
+                        'Fun and Interactive Experience'
+                    }
+                    textAlign={'start'}
+                    />
+                    <CustomTypography>
+                    Who says self-improvement has to be dull? RenewU combines learning with a touch of humor and interactivity. You'll enjoy the process of growth while gaining valuable life lessons from renowned books.
+                    </CustomTypography> 
+                </Box>
+
+            </CustomGridItem>
+            
+            <Grid item xs={12} sm={4} md={6}
+            sx={{
+                order: {xs: 6, sm: 6, md: 6}
+            }}
+            >
+                <img src={imgDetail3} alt="" 
+                style={{
+                    width: '100%',
+                }}
+                />
+            </Grid>
+
         </Grid>
     )
 }

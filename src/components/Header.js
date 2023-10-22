@@ -92,7 +92,7 @@ const Header = () => {
                     </Button>
                     <Button 
                     component={Link} 
-                    to={'/chatbot'}
+                    to={'/'}
                     variant='outlined'
                     sx={{
                         px: 4, 

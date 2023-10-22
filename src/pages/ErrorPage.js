@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const PageNotFound = () => {
   return (
-    <Container maxWidth="sm" style={{ textAlign: 'center', marginTop: '50px' }}>
+    <Container maxWidth="sm" style={{ textAlign: 'center', marginTop: '50px', marginBottom: '50px' }}>
       <Typography variant="h4" component="h1" gutterBottom>
         Oops! Page Not Found
       </Typography>
@@ -13,7 +13,7 @@ const PageNotFound = () => {
       </Typography>
       <Link to="/" style={{ textDecoration: 'none' }}>
         <Button variant="contained" color="primary" size="large" style={{ marginTop: '20px' }}>
-          Go to Home
+          Go  Home
         </Button>
       </Link>
     </Container>
