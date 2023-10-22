@@ -30,7 +30,14 @@ const Features = () => {
 
     return (
         <>
-
+            <Typography
+                variant="h4"
+                component="h1"
+                align="center"
+                sx={{ fontWeight: 'bold', mb: 4, mt: 8  }}
+            >
+                Why use RenewU?
+            </Typography>
 
             <Grid container spacing={{ xs: 4, sm: 4, md: 0 }}
                 sx={{
@@ -44,7 +51,7 @@ const Features = () => {
                     component='section'
 
                 >
-                    
+
                     <Box component='article'
                         sx={{
                             px: 4,
