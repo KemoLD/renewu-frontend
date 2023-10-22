@@ -1,13 +1,16 @@
 import React from 'react';
 
 const ChatBotComponent = () => {
-  console.log(process.env.REACT_APP_CHATBOT_SECRET_KEY);
+  const iframeStyle = {
+    minWidth: '400px',
+    width: '100%',
+    minHeight: '500px',
+  };
+
   return (
-    <iframe
-      src={`https://webchat.botframework.com/embed/comebacklang-bot?s=${process.env.REACT_APP_CHATBOT_SECRET_KEY}`}
-      style={{ minWidth: '400px', width: '100%', minHeight: '500px', border: 'none' }}
-    ></iframe>
+    <iframe src='https://webchat.botframework.com/embed/demo-name-bot1?s=IHxwTDT_KqU.I2LhDVgl5h9G5ArqS3AVN5Qqsxt6qasw85OumiIeLlo'  style={iframeStyle}></iframe>
   );
 };
 
 export default ChatBotComponent;
+
