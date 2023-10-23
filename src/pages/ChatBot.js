@@ -52,7 +52,9 @@ const ChatBot = () => {
           Enter a prompt into the chat window below to get started and take the first step towards personal growth.
         </Typography>
 
-        <div style={{ flex: 1 }}>
+        <div style={{
+          flex: 1, zIndex: 9999
+        }}>
           <ChatBotComponent style={{ height: '100%' }} />
         </div>
 

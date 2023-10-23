@@ -6,7 +6,7 @@ const ChatBotComponent = () => {
   };
 
   return (
-    <iframe src='https://webchat.botframework.com/embed/demo-name-bot1?s=IHxwTDT_KqU.I2LhDVgl5h9G5ArqS3AVN5Qqsxt6qasw85OumiIeLlo' style={iframeStyle} title='RenewU Chat Bot' ></iframe>
+    <iframe src='https://webchat.botframework.com/embed/demo-name-bot2?s=7DNrWybGr2w.fXxI0-Vn2GwLny9TUuPaaAxqtyaB_ClYSE04Fog_KZM'  style={iframeStyle}></iframe>
   );
 };
 
