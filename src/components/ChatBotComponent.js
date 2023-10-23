@@ -6,7 +6,7 @@ const ChatBotComponent = () => {
   };
 
   return (
-    <iframe src='https://webchat.botframework.com/embed/demo-name-bot2?s=7DNrWybGr2w.fXxI0-Vn2GwLny9TUuPaaAxqtyaB_ClYSE04Fog_KZM'  style={iframeStyle}></iframe>
+    <iframe src='https://webchat.botframework.com/embed/demo-name-bot2?s=7DNrWybGr2w.fXxI0-Vn2GwLny9TUuPaaAxqtyaB_ClYSE04Fog_KZM' title='Chatbot' style={iframeStyle}></iframe>
   );
 };
 
